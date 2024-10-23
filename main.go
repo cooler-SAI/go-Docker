@@ -11,6 +11,7 @@ func main() {
 	log.Logger = log.Output(zerolog.ConsoleWriter{Out: os.Stderr})
 	log.Info().Msg("Service RUN good!")
 	log.Error().Msg("UPDATE Last one")
+	log.Info().Msg("Test One two")
 
 	fmt.Println()
 }
