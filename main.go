@@ -12,6 +12,7 @@ func main() {
 	log.Info().Msg("Service RUN good!")
 	log.Error().Msg("UPDATE Last one")
 	log.Info().Msg("Test One two")
+	log.Error().Msg("Docker Uploaded")
 
 	fmt.Println()
 }
