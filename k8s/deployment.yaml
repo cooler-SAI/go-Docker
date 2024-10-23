@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: go-docker-container
-          image: go-Docker
+          image: go-docker
           ports:
             - containerPort: 8080
