@@ -21,5 +21,4 @@ func main() {
 		log.Info().Msg("Service is running...")
 		time.Sleep(10 * time.Second)
 	}
-
 }
