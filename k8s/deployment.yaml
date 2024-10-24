@@ -6,11 +6,11 @@ spec:
   replicas: 1
   selector:
     matchLabels:
-      app: go-docker-app
+      app: go-docker
   template:
     metadata:
       labels:
-        app: go-docker-app
+        app: go-docker
     spec:
       containers:
         - name: go-docker-container

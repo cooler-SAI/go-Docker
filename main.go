@@ -5,6 +5,7 @@ import (
 	"github.com/rs/zerolog"
 	"github.com/rs/zerolog/log"
 	"os"
+	"time"
 )
 
 func main() {
@@ -15,4 +16,10 @@ func main() {
 	log.Error().Msg("Docker Uploaded")
 
 	fmt.Println()
+
+	for {
+		log.Info().Msg("Service is running...")
+		time.Sleep(10 * time.Second)
+	}
+
 }
