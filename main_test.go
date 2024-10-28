@@ -21,7 +21,7 @@ func TestHandler(t *testing.T) {
 		t.Errorf("handler returned wrong status code: got %v want %v", status, http.StatusOK)
 	}
 
-	expected := "Hello, you've hit /testpath\n" // Исправлено ожидаемое значение
+	expected := "Hello, you've hit /testpath\n"
 	if body := w.Body.String(); body != expected {
 		t.Errorf("handler returned unexpected body: got %v want %v", body, expected)
 	}
